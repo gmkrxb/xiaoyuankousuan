@@ -43,9 +43,9 @@
 ```
 
 ## 使用方法
-
+**注意，配置全过程最好（尽量）在科学上网的环境下进行（因为很多库国内都很难下载）**
 ### 一、安装环境依赖
-在运行本程序前，需要安装以下 Python 库：
+在运行本程序前，需要安装以下 Python 库（安装源 二选一）：
 
 1. 使用官方源安装：
    ```bash
@@ -86,16 +86,6 @@ OCR 依赖 Tesseract，请按照以下步骤在 Windows 或 macOS 上进行配�
      ```bash
      brew install tesseract
      ```
-   - 或者使用清华源（国内用户）:
-     - 替换 Homebrew 镜像源为清华源（如果未配置过）:
-       ```bash
-       git -C "$(brew --repo)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/homebrew/brew.git
-       git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/homebrew/homebrew-core.git
-       ```
-     - 然后安装 Tesseract:
-       ```bash
-       brew install tesseract
-       ```
 
 3. **配置 Tesseract 的可执行文件路径**:
    - 获取 Tesseract 的可执行文件路径:
