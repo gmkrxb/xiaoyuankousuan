@@ -19,8 +19,6 @@
 ```
 .
 ├── README.md                             # 使用说明文档
-├── __pycache__                           # 编译后的缓存文件
-│   └── get_xy.cpython-312.pyc            # get_xy 的缓存文件
 ├── comparison.py                         # 对比 easyocr 和 tesseract 的识别时间和结果
 ├── get_xy.py                             # 获取鼠标坐标的库
 ├── main.py                               # 主程序
