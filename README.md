@@ -22,7 +22,7 @@
 ├── comparison.py                         # 对比 easyocr 和 tesseract 的识别时间和结果
 ├── get_xy.py                             # 获取鼠标坐标的库
 ├── main.py                               # 主程序
-├── temp                                  # 文件夹，用于保存分割之后的图片
+├── temp                                  # 文件夹，用于保存分割之后的图片(仓库里没有，得自己去运行代码，会自动创建)
 │   └── ...                               # 分割保存的图片
 └── test_photo.png                        # 测试 comparison.py 的图片
 ```
