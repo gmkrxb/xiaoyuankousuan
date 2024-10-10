@@ -44,7 +44,7 @@
 
 ## 使用方法
 
-### 环境依赖
+### 一、安装环境依赖
 在运行本程序前，需要安装以下 Python 库：
 
 1. 使用官方源安装：
@@ -56,7 +56,7 @@
    pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyautogui opencv-python pillow pytesseract numpy
    ```
 
-### Tesseract 配置
+### 二、Tesseract 配置
 OCR 依赖 Tesseract，请按照以下步骤在 Windows 或 macOS 上进行配置：
 
 #### 在 Windows 上安装 Tesseract
@@ -115,7 +115,7 @@ tesseract -v
 ```
 如果成功显示版本信息，则安装成功。
 
-### 使用流程
+### 三、使用流程
 1. **运行主程序**:
    在命令行中运行 `main.py`:
    ```bash
