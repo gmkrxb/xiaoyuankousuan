@@ -1,3 +1,4 @@
+[![GitHub stars](https://img.shields.io/github/stars/gmkrxb/xiaoyuankousuan.svg)](https://github.com/gmkrxb/xiaoyuankousuan/stargazers)
 
 # 基于OCR识别的小猿口算比大小自动做题程序（支持0~100比较）
 
